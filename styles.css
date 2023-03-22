@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: #f0ffff;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  margin: 0px;
+}
+
+button {
+  width: 126px;
+  height: 56px;
+  background-color: #696969;
+  font-size: 16px;
+  letter-spacing: 0.16rem;
+  font-weight: bold;
+  color: #f0ffff;
+  border-radius: 32px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.section-hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-header {
+  width: 1216px;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 64px;
+  border-bottom: 1px solid #696969;
+}
+
+.navigation {
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
