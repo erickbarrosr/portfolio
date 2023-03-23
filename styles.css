@@ -12,12 +12,24 @@ body {
 
 h1 {
   margin: 0px;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
 
+h1.about {
+  font-size: 52px;
+  max-width: 516px;
+}
+
 p {
   margin: 0px;
+  font-size: 24px;
+}
+
+p.paragraph {
+  margin-top: 32px;
+  max-width: 516px;
 }
 
 a {
@@ -35,6 +47,12 @@ button {
   border-radius: 32px;
   border-width: 0px;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+button.resume {
+  width: 208px;
+  margin-top: 32px;
 }
 
 .section-hero {
@@ -61,4 +79,37 @@ button {
   font-size: 16px;
   margin-right: 20px;
   cursor: pointer;
+}
+
+.about-me {
+  width: 1216px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.my-photo {
+  width: 408px;
+  height: auto;
+  border-radius: 48px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  max-width: 70%;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
 }
