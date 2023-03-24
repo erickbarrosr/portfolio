@@ -8,6 +8,7 @@ body {
   background-color: #f0ffff;
   font-family: "Open Sans", sans-serif;
   color: black;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -18,8 +19,26 @@ h1 {
 }
 
 h1.about {
-  font-size: 52px;
-  max-width: 516px;
+  font-size: 64px;
+  max-width: 80%;
+}
+
+h2 {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+h2.gray-color {
+  color: #696969;
+}
+
+h3 {
+  margin: 0px;
+  padding-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
 }
 
 p {
@@ -30,6 +49,10 @@ p {
 p.paragraph {
   margin-top: 32px;
   max-width: 516px;
+}
+
+p.technologies {
+  font-size: 16px;
 }
 
 a {
@@ -53,6 +76,14 @@ button {
 button.resume {
   width: 208px;
   margin-top: 32px;
+}
+
+ul {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-left: 16px;
 }
 
 .section-hero {
@@ -106,10 +137,67 @@ button.resume {
   align-items: center;
   justify-content: space-between;
   margin-top: 32px;
-  max-width: 70%;
+  max-width: 40%;
 }
 
 .icons {
   width: 40px;
   height: 40px;
+  cursor: pointer;
+}
+
+.section-technologies {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-grid {
+  width: 312px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  border-color: #696969;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: center;
+  column-gap: 48px;
+  margin-top: 64px;
+}
+
+.icon-grid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #696969;
+  border-radius: 40px;
+  margin-top: 24px;
+}
+
+.icon-grid-img {
+  width: 40px;
+  height: 40px;
+}
+
+.description-technologies {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 24px;
 }
