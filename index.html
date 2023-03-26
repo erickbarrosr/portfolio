@@ -3,17 +3,26 @@
   <head>
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <section class="section-hero">
       <div class="section-header">
         <h1>Erick Barros</h1>
         <div>
-          <a class="navigation">Tecnologias</a>
-          <a class="navigation">Projetos</a>
-          <a class="navigation">Experiências</a>
+          <a
+            onclick="onClickScrollTo('section-technologies')"
+            class="navigation"
+            >Tecnologias</a
+          >
+          <a onclick="onClickScrollTo('section-portfolio')" class="navigation"
+            >Projetos</a
+          >
+          <a onclick="onClickScrollTo('section-experiences')" class="navigation"
+            >Experiências</a
+          >
         </div>
-        <button>CONTATO</button>
+        <button onclick="onClickScrollTo('section-contact')">CONTATO</button>
       </div>
       <div class="about-me">
         <div>
@@ -59,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section class="section-technologies">
+    <section id="section-technologies" class="section-technologies">
       <h2>Tecnologias que</h2>
       <h2 class="gray-color">domino.</h2>
       <div class="grid-container">
@@ -116,7 +125,7 @@
         </div>
       </div>
     </section>
-    <section class="section-portfolio">
+    <section id="section-portfolio" class="section-portfolio">
       <h2>Portfólio de</h2>
       <h2 class="gray-color">projetos.</h2>
       <div class="grid-container-portfolio">
@@ -191,5 +200,82 @@
         </div>
       </div>
     </section>
+    <section id="section-experiences" class="section-experiences">
+      <h2>Experiências</h2>
+      <h2 class="gray-color">Profissionais.</h2>
+      <div class="experiences-container">
+        <img
+          class="logo-experiences"
+          src="source/imagens/mapadaprogramacao.png"
+          alt="logo"
+        />
+        <div class="description-experiences">
+          <h4>Mapa da Programação</h4>
+          <h5>Desenvolvedor Front-End - Novembro de 2022 até o momento</h5>
+          <p class="experiences">
+            Responsável pelo desenvolvimento de aplicações web, utilizando como
+            foco principal as tecnologias: HTML, CSS, JavaScript e React.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="section-contact" class="section-contact">
+      <h2>Como posso te</h2>
+      <h2 class="gray-color">ajudar?</h2>
+      <p class="contact">
+        Estou à disposição para ajudar em seu projeto, ou a sua empresa.
+      </p>
+      <div class="contact-container">
+        <img class="contact-icon" src="source/icons/mail.png" alt="email" />
+        <a>
+          <h6>erickb.rezende@outlook.com</h6>
+        </a>
+      </div>
+      <div class="contact-container">
+        <img
+          class="contact-icon"
+          src="source/icons/telefone-fixo.png"
+          alt="email"
+        />
+        <a>
+          <h6>(32) 99138-9302</h6>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="section-footer">
+        <h1>Erick Barros</h1>
+        <div class="icons-container">
+          <a>
+            <img
+              class="icons-footer"
+              src="source/icons/github.png"
+              alt="github"
+            />
+          </a>
+          <a>
+            <img
+              class="icons-footer"
+              src="source/icons/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+          <a>
+            <img
+              class="icons-footer"
+              src="source/icons/whatsapp.png"
+              alt="whatsapp"
+            />
+          </a>
+          <a>
+            <img
+              class="icons-footer"
+              src="source/icons/instagram.png"
+              alt="instagram"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
