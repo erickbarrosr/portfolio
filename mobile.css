@@ -1,0 +1,258 @@
+@media only screen and (max-device-width: 450px) {
+  body {
+    width: 100vw;
+    padding: 8px;
+  }
+
+  footer {
+    width: 100%;
+    height: 156px;
+  }
+
+  .section-hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .section-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 24px;
+    border-bottom: 1px solid #696969;
+  }
+
+  .navigation {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  .about-me {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+  }
+
+  .my-photo {
+    width: 408px;
+    height: auto;
+    border-radius: 48px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+  }
+
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    max-width: 40%;
+  }
+
+  .icons {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .section-technologies {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .card-grid {
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: #696969;
+  }
+
+  .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: center;
+    row-gap: 36px;
+    margin-top: 24px;
+  }
+
+  .icon-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #696969;
+    border-radius: 40px;
+    margin-top: 24px;
+  }
+
+  .icon-grid-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .description-technologies {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 24px;
+  }
+
+  .section-portfolio {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 64px;
+  }
+
+  .grid-container-portfolio {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: flex-start;
+    justify-content: center;
+    row-gap: 36px;
+  }
+
+  .card-grid-portfolio {
+    width: 384px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: #696969;
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  .card-grid-portfolio-img {
+    width: 220px;
+    height: 154px;
+    padding: 24px;
+  }
+
+  .icons-grid-portfolio {
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+  }
+
+  .icon-github {
+    width: 20px;
+    height: auto;
+  }
+
+  .section-experiences {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 64px;
+  }
+
+  .experiences-container {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: #696969;
+    margin-top: 64px;
+  }
+
+  .logo-experiences {
+    width: 52px;
+    height: auto;
+    padding: 24px;
+  }
+
+  .description-experiences {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .section-contact {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 64px;
+  }
+
+  .contact-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-icon {
+    width: 32px;
+    height: auto;
+    padding: 4px;
+  }
+
+  .section-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icons-footer {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 24px;
+  }
+}
