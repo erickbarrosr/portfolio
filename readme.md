@@ -7,6 +7,10 @@ In addition, it stands as an example of a professional portfolio for developers.
 
 <img src="https://github.com/erickbarrosr/portfolio/blob/main/source/imagens/preview.png" height="500"/>
 
+## Live link:
+
+https://erickbarrosr.github.io/portfolio/
+
 ## Main concepts applied
 
 - Flex-box
